@@ -1,0 +1,18 @@
+﻿@model IEnumerable<ezDoctorOffice_2.Models.User>
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h2>Index</h2>
+<br>
+<p>
+Hi, @ViewBag.Greetings
+</p>
+<br>
+<hr>
+<ul>
+@foreach(var item in Model){
+    <li>
+		@item.Name
+	</li>
+	}
+</ul>

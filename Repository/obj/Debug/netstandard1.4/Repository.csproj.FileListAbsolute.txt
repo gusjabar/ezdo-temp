@@ -1,0 +1,6 @@
+/Users/javier/projects/ezDoctorOffice_2/Repository/bin/Debug/netstandard1.4/Repository.deps.json
+/Users/javier/projects/ezDoctorOffice_2/Repository/bin/Debug/netstandard1.4/Repository.dll
+/Users/javier/projects/ezDoctorOffice_2/Repository/bin/Debug/netstandard1.4/Repository.pdb
+/Users/javier/projects/ezDoctorOffice_2/Repository/obj/Debug/netstandard1.4/Repository.AssemblyInfo.cs
+/Users/javier/projects/ezDoctorOffice_2/Repository/obj/Debug/netstandard1.4/Repository.dll
+/Users/javier/projects/ezDoctorOffice_2/Repository/obj/Debug/netstandard1.4/Repository.pdb

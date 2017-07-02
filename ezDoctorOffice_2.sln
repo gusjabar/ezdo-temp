@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ezDoctorOffice_2", "ezDoctorOffice_2\ezDoctorOffice_2.csproj", "{805A5856-2ED8-4930-A873-A4238C9C58B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{DD44202C-9085-43D1-BE0F-990385DBF8DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{805A5856-2ED8-4930-A873-A4238C9C58B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{805A5856-2ED8-4930-A873-A4238C9C58B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{805A5856-2ED8-4930-A873-A4238C9C58B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{805A5856-2ED8-4930-A873-A4238C9C58B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD44202C-9085-43D1-BE0F-990385DBF8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD44202C-9085-43D1-BE0F-990385DBF8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD44202C-9085-43D1-BE0F-990385DBF8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD44202C-9085-43D1-BE0F-990385DBF8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
