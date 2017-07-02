@@ -8,9 +8,10 @@ using Repository;
 namespace ezDoctorOffice_2.Migrations
 {
     [DbContext(typeof(DocOffContext))]
-    partial class DocOffContextModelSnapshot : ModelSnapshot
+    [Migration("20170702165255_IdentityClases")]
+    partial class IdentityClases
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")

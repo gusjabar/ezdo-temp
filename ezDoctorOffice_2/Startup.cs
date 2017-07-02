@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Repository;
+using Repository.Entities;
 
 namespace ezDoctorOffice_2
 {
@@ -33,6 +35,15 @@ namespace ezDoctorOffice_2
         {
             services.AddSingleton(Configuration);
             services.AddMvc();
+
+            services.AddIdentity<DocOffUser,IdentityRole>(config=>
+            {
+                config.User.RequireUniqueEmail = true;
+                config.Password.RequiredLength = 8;
+                config.Cookies.ApplicationCookie.LoginPath = "/Auth/Login";
+            })
+            .AddEntityFrameworkStores<DocOffContext>();
+
             services.AddDbContext<DocOffContext>();
             services.AddTransient<DocOffSeedData>();
 			//services.AddDbContext<DocOffContext>(options =>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -45,6 +56,8 @@ namespace ezDoctorOffice_2
                               DocOffSeedData seeder)
         {
 			app.UseStaticFiles();
+
+            app.UseIdentity();
 
             app.UseMvc(config =>
 			{
