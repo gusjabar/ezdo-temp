@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Repository.Entities.User>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Repository.Entities.User>
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -8,11 +9,6 @@
 Hi, @ViewBag.Greetings
 </p>
 <br>
-<hr>
-<ul>
-@foreach(var item in Model){
-    <li>
-		@item.Name
-	</li>
-	}
-</ul>
+
+<a asp-controller="Home" asp-action="List">View List</a>
+

@@ -1,0 +1,10 @@
+﻿<h2>Users list</h2>
+<br>
+<hr>
+<ul>
+@foreach(var item in Model){
+    <li>
+        @item.Name @item.LastName
+    </li>
+    }
+</ul>

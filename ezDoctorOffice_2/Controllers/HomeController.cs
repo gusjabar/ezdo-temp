@@ -26,8 +26,13 @@ namespace ezDoctorOffice_2.Controllers
         {
             ViewBag.Greetings = "Welcome";
 
-            var users = this._repository.Users.ToList();
+           
 
+            return View();
+        }
+        public IActionResult List()
+        {
+			var users = this._repository.Users.ToList();
             return View(users);
         }
     }
