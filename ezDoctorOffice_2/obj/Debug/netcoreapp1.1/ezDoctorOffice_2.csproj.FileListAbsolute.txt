@@ -6,7 +6,7 @@
 /Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/bin/Debug/netcoreapp1.1/Repository.dll
 /Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/bin/Debug/netcoreapp1.1/Repository.pdb
 /Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/obj/Debug/netcoreapp1.1/ezDoctorOffice_2.csprojResolveAssemblyReference.cache
+/Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/obj/Debug/netcoreapp1.1/ezDoctorOffice_2.csproj.CoreCompileInputs.cache
 /Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/obj/Debug/netcoreapp1.1/ezDoctorOffice_2.AssemblyInfo.cs
 /Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/obj/Debug/netcoreapp1.1/ezDoctorOffice_2.dll
 /Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/obj/Debug/netcoreapp1.1/ezDoctorOffice_2.pdb
-/Users/javier/projects/ezDoctorOffice_2/ezDoctorOffice_2/obj/Debug/netcoreapp1.1/ezDoctorOffice_2.csproj.CoreCompileInputs.cache
