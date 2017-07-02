@@ -1,11 +1,16 @@
 ﻿<Properties StartupConfiguration="{805A5856-2ED8-4930-A873-A4238C9C58B5}|Default">
   <MonoDevelop.Ide.ItemProperties.ezDoctorOffice__2 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ezDoctorOffice_2/bower.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ezDoctorOffice_2/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="ezDoctorOffice_2/.DS_Store" Line="1" Column="1" />
-      <File FileName="ezDoctorOffice_2/Views/Shared/_Layout.cshtml" Line="57" Column="1" />
-      <File FileName="ezDoctorOffice_2/Views/Auth/Login.cshtml" Line="19" Column="11" />
-      <File FileName="ezDoctorOffice_2/bower.json" Line="1" Column="1" />
+      <File FileName="ezDoctorOffice_2/Views/Shared/_Layout.cshtml" Line="28" Column="10" />
+      <File FileName="ezDoctorOffice_2/Views/Auth/Login.cshtml" Line="23" Column="7" />
+      <File FileName="ezDoctorOffice_2/bower.json" Line="12" Column="1" />
+      <File FileName="ezDoctorOffice_2/wwwroot/css/site.css" Line="49" Column="2" />
+      <File FileName="ezDoctorOffice_2/wwwroot/lib/font-awesome/.bower.json" Line="1" Column="1" />
+      <File FileName="ezDoctorOffice_2/wwwroot/lib/bootstrap/.bower.json" Line="1" Column="1" />
+      <File FileName="ezDoctorOffice_2/wwwroot/lib/jquery-validation/.bower.json" Line="1" Column="1" />
+      <File FileName="ezDoctorOffice_2/wwwroot/lib/font-awesome/css/font-awesome.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,10 +18,20 @@
           <Node name="ezDoctorOffice_2" expanded="True">
             <Node name="ezDoctorOffice_2" expanded="True">
               <Node name="Views" expanded="True">
-                <Node name="Auth" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
-              <Node name="bower.json" selected="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="font-awesome" expanded="True">
+                    <Node name="css" expanded="True" />
+                  </Node>
+                  <Node name="jquery-validation" expanded="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

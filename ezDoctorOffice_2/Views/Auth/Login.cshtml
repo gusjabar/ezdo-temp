@@ -1,21 +1,23 @@
-﻿@model ezDoctorOffice_2.Models.LoginViewModel
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model ezDoctorOffice_2.Models.LoginViewModel
 @{
     ViewBag.Title="Login";
     Layout="_Layout";
 }
-
-<h3>Login</h3>
-<form method="post">
-    <div asp-validation-summary="ModelOnly"></div>
-	<div class="form-group">
-	<label asp-for="UserName" class="control-label">User Name</label>
-	<input asp-for="UserName" class="control-group"/>
-	<span asp-validation-for="UserName"></span>
+<div class="well">
+	<h3>Login <i class="fa fa-address-book-o" aria-hidden="true"></i></h3>
+	<form method="post">
+	    <div asp-validation-summary="ModelOnly"></div>
+		<div class="form-group">
+			<label asp-for="UserName" class="control-label">User Name</label>
+			<input asp-for="UserName" class="form-control"/>
+			<span asp-validation-for="UserName"></span>
 		</div>
-    <div class="form-group">
-	<label asp-for="Password" class="control-label">Password</label>
-    <input asp-for="Password" class="control-group" type="password"/>
-	<span asp-validation-for="Password"></span>
-    </div>
-	<input type="submit" value="Login" class="btn btn-primary"/>
-</form>
+	    <div class="form-group">
+			<label asp-for="Password" class="control-label">Password</label>
+		    <input asp-for="Password" class="form-control" type="password"/>
+			<span asp-validation-for="Password"></span>
+		</div>
+		<input type="submit" value="Login" class="btn btn-primary"/>
+	</form>
+</div>
