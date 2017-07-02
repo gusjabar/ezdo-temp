@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Repository.Entities
 {
-    public class User
+    public class Customer
     {
-        public User()
+        public Customer()
         {
         }
         public int Id

@@ -1,25 +1,21 @@
-﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-@model ezDoctorOffice_2.Models.LoginViewModel
+﻿@model ezDoctorOffice_2.Models.LoginViewModel
 @{
     ViewBag.Title="Login";
+    Layout="_Layout";
 }
-@section Script{
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
 
-<script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
-<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"></script>
-}
 <h3>Login</h3>
-<form method="post" novalidate>
+<form method="post">
     <div asp-validation-summary="ModelOnly"></div>
-	
-	<label asp-for="UserName">User Name</label>
-	<input asp-for="UserName"/>
+	<div class="form-group">
+	<label asp-for="UserName" class="control-label">User Name</label>
+	<input asp-for="UserName" class="control-group"/>
 	<span asp-validation-for="UserName"></span>
-    <br>
-	<label asp-for="Password">Password</label>
-    <input asp-for="Password"/>
+		</div>
+    <div class="form-group">
+	<label asp-for="Password" class="control-label">Password</label>
+    <input asp-for="Password" class="control-group" type="password"/>
 	<span asp-validation-for="Password"></span>
-	<br>
-	<input type="submit" value="Login"/>
+    </div>
+	<input type="submit" value="Login" class="btn btn-primary"/>
 </form>

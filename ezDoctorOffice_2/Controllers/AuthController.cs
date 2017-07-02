@@ -24,7 +24,7 @@ namespace ezDoctorOffice_2.Controllers
         {
             if (User.Identity.IsAuthenticated)
             {
-                return RedirectToAction("Home", "Index");
+                return RedirectToAction("Index", "Home");
             }
             return View();
         }
@@ -40,7 +40,7 @@ namespace ezDoctorOffice_2.Controllers
             if (signInResult.Succeeded)
             {
                 if (string.IsNullOrWhiteSpace(returnUrl))
-                    return RedirectToAction("Home", "Index");
+                    return RedirectToAction("Index", "Home");
                 else
                     return Redirect(returnUrl);
             }
@@ -54,6 +54,15 @@ namespace ezDoctorOffice_2.Controllers
             }
             return View();
 
+        }
+
+        public async Task<ActionResult> Logout()
+        {
+            if (User.Identity.IsAuthenticated)
+            {
+                await _manager.SignOutAsync();
+            }
+            return RedirectToAction("Index", "Home");
         }
     }
 }

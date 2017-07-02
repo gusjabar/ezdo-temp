@@ -2,13 +2,17 @@
 @model IEnumerable<Repository.Entities.Customer>
 @{
     ViewData["Title"] = "Home Page";
+    Layout="_Layout";
 }
-<h2>Index</h2>
-<br>
-<p>
-Hi, @ViewBag.Greetings
-</p>
-<br>
-
-<a asp-controller="Home" asp-action="List">View List</a>
+<div class="row">
+    <div class="col-md-12">
+		<h2>Index</h2>
+		<br>
+		<p>
+    		Hi, @ViewBag.Greetings
+		</p>
+		<br>
+		<a asp-controller="Home" asp-action="List">View List</a>
+	</div>
+</div>
 
