@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using ezDoctorOffice_2.Repository;
+using Repository;
 
 namespace ezDoctorOffice_2.Migrations
 {

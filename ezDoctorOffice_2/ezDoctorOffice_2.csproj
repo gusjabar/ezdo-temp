@@ -28,4 +28,12 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="1.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Repository\Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DocOffContext.cs" />
+    <Compile Remove="DocOffSeedData.cs" />
+    <Compile Remove="User.cs" />
+  </ItemGroup>
 </Project>

@@ -33,7 +33,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.2",
           "Microsoft.EntityFrameworkCore.Tools": "1.1.1",
           "Microsoft.NETCore.App": "1.1.1",
-          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0"
+          "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.1.0",
+          "Repository": "1.0.0"
         },
         "runtime": {
           "ezDoctorOffice_2.dll": {}
@@ -1542,6 +1543,20 @@
         },
         "compile": {
           "lib/netstandard1.0/System.Text.Encodings.Web.dll": {}
+        }
+      },
+      "repository/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "1.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Tools": "1.1.1",
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "Repository.dll": {}
+        },
+        "compile": {
+          "Repository.dll": {}
         }
       },
       "libuv/1.9.1": {
@@ -3866,6 +3881,11 @@
       "sha512": "sha512-tcfPv+q/nK+5EsAxCLauIOd0kL+lZsXQ4lPKRnh8ex6O1Rm8WAN3LtF2GDFHyD0glSmUpIrgTnLhHCkMAKo3Ug==",
       "path": "system.text.encodings.web/4.3.1",
       "hashPath": "system.text.encodings.web.4.3.1.nupkg.sha512"
+    },
+    "repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "libuv/1.9.1": {
       "type": "package",
